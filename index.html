@@ -8,23 +8,30 @@
 
 	<meta charset="UTF-8">
 
-	<link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
+
+	<!--<link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700' rel='stylesheet' type='text/css'>
+
+	<link href="css/style.css" rel="stylesheet" type="text/css">-->
 
 </head>
 
 <body>
 
+<div class="container">
+
 <header class="nav" id="home">
 
-	<a href="index.html#home"><img src="final_images/logo.png" alt="logo, link to home"></a>
-
-	<ul>
-		<a href="index.html#home"><li>home</li></a>
-		<a href="work.html#work"><li>| work</li></a>
-		<a href="process.html#process"><li>| process</li></a>
+	<a href="index.html#home"><img src="final_images/mobile-logo.png" alt="logo, link to home" class="img-responsive col-xs-4"></a>
+	<ul class="nav-pills list-unstyled list-inline">
+		<a href="index.html#home"><li class="active">home</li></a>
+		<a href="work.html#work"><li>work</li></a>
+		<a href="process.html#process"><li>process</li></a>
 	</ul>
+	
 
 </header><!--close nav-->
 
@@ -32,7 +39,7 @@
 
 	<div class="about">
 
-		<img src="final_images/" alt="photo of myself, Angela Lenz">
+		<img src="final_images/" alt="photo of myself, Angela Lenz" class="img-responsive">
 
 		<h1>This Is Me</h1>
 
@@ -46,11 +53,11 @@
 
 		<ul>
 
-			<a href="magazine.html#mag"><li><img src="final_images/article.jpg" alt="clipping of magazine project, link to project page"></li></a>
-			<a href="digital.html#decay"><li><img src="final_images/hole.jpg" alt="hole in the ground"></li></a>
-			<a href="collection.html#collection"><li><img src="final_images/collection-crop.jpg" alt="collection of book covers"></li></a>
-			<a href="film.html#film"><li><img src="final_images/giulia.jpg" alt="portrait of giulia"></li></a>
-			<a href="landscape.html#pds"><li><img src="final_images/pds2.jpg" alt="landscape of pds property"></li></a>
+			<a href="magazine.html#mag"><li><img src="final_images/article.jpg" alt="clipping of magazine project, link to project page" class="img-responsive"></li></a>
+			<a href="digital.html#decay"><li><img src="final_images/hole.jpg" alt="hole in the ground" class="img-responsive"></li></a>
+			<a href="collection.html#collection"><li><img src="final_images/collection-crop.jpg" alt="collection of book covers" class="img-responsive"></li></a>
+			<a href="film.html#film"><li><img src="final_images/giulia.jpg" alt="portrait of giulia" class="img-responsive"></li></a>
+			<a href="landscape.html#pds"><li><img src="final_images/pds2.jpg" alt="landscape of pds property" class="img-responsive"></li></a>
 
 		</ul>
 
@@ -60,17 +67,24 @@
 
 <footer>
 
-	<ul>
+	<ul class="list-unstyled list-inline col-xs-12">
 
-		<a href="http://www.pinterest.com/lenziex01/" target="blank"><li><img src="final_images/pinterest.png" alt="pinterest"></li></a>
-		<a href="http://instagram.com/lenziex01" target="blank"><li><img src="final_images/instagram.png" alt="instagram"></li></a>
-		<a href="https://www.facebook.com/angela.e.lenz" target="blank"><li><img src="final_images/facebook.png" alt="facebook"></li></a>
+		<a href="http://www.pinterest.com/lenziex01/" target="blank"><li><img src="final_images/pinterest.png" alt="pinterest" class="img-responsive"></li></a>
+		<a href="http://instagram.com/lenziex01" target="blank"><li><img src="final_images/instagram.png" alt="instagram" class="img-responsive"></li></a>
+		<a href="https://www.facebook.com/angela.e.lenz" target="blank"><li><img src="final_images/facebook.png" alt="facebook" class="img-responsive"></li></a>
 
 	</ul>
 
 	<h2>angela.lenz93@gmail.com</h2>
 
 </footer>
+
+</div><!--closes container-->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script href="http://code.jquery.com/jquery-latest.js"></script>
 
 </body>
 
