@@ -28,8 +28,27 @@
 	<a href="index.html#home"><img src="final_images/mobile-logo.png" alt="logo, link to home" class="img-responsive col-xs-3 col-sm-2 col-md-2 hidden-md hidden-lg logo"></a>
 	<a href="index.html#home"><img src="final_images/logo.png" alt="logo, link to home" class="img-responsive visible-md col-md-4 visible-lg col-lg-3"></a>
 
-	<nav>
-		<ul class="nav-pills list-unstyled list-inline  col-xs-9 pull-right">
+	<!--hamburger nav-->
+	<div class="navbar-header">
+  		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+  		</button>
+  		<!--<a class="col-xs-4 col-sm-3 col-md-2 navbar-brand" href="index.html">Brand</a>-->
+	</div>
+
+<style>
+
+	.icon-bar {
+		background-color:#A2DBEB;
+	}
+
+</style>
+
+	<nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav">
 			<a href="index.html#home"><li class="active">home</li></a>
 			<a href="work.html#work"><li>work</li></a>
 		</ul>
@@ -74,16 +93,18 @@
 
 	<h2>angela.lenz93@gmail.com</h2>
 
-	<p>Vector Graphics by <a href="http://www.freevector.com">FreeVector.com</a></p>
-
 </footer>
 
 </div><!--closes container-->
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script href="http://code.jquery.com/jquery-latest.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script href="http://code.jquery.com/jquery-latest.js"></script>
+
+     <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
 
 </body>
 
