@@ -103,7 +103,7 @@ h2 {
 	}
 
 	footer {
-		vertical-align:center;
+		vertical-align:middle;
 	}
 
 	footer img {
@@ -140,8 +140,12 @@ h2 {
 		border:dashed 1px #341910;
 	}
 
-	.work-images a {
-		margin-right:0;
+	.work-images li {
+		float:left;
+	}
+
+	footer {
+		vertical-align:middle;
 	}
 
 }
