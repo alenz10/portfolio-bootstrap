@@ -144,8 +144,37 @@ h2 {
 		float:left;
 	}
 
+	.film ul {
+		float:left;
+		margin-right:0%;
+	}
+
+	.film li {
+		float:left;
+	}
+
 	footer {
-		vertical-align:middle;
+		margin-left:15%;
+	}
+
+	span .me {
+		margin-bottom:10%;
+	}
+
+	h2 {
+		font-size:1.5em;
+	}
+
+	.collection {
+		width:85%;
+	}
+
+	.about {
+		width:85%;
+	}
+
+	.decay ul {
+		margin-left:20%;
 	}
 
 }
