@@ -4,24 +4,28 @@
 
 header {
 	padding-top:3%;
+	margin-bottom:-5%;
 }
 
 .icon-bar:hover {
 	background-color:#341910;
 }
 
+.icon-bar {
+	background-color:#A2DBEB;
+}
+
 .nav li {
 	background-color:#341910;
 	color:#52676d;
 	padding:2%;
+	font-family: 'Cabin', sans-serif;
+	font-weight:bold;
 }
 
-.nav li:visited {
-	color:#341910;
-}
-
-.active a {
+.active li {
 	color:#A2DBEB;
+	border-bottom:solid 1px #341910;
 }
 
 p::selection {
@@ -37,32 +41,35 @@ h2::selection {
 }
 
 h1 {
-	margin-top:7%;
+	margin-top:2%;
 	color:#341910;
+	font-family: 'Cabin', sans-serif;
 }
 
 h2 {
 	font-size:2em;
+	font-family: 'Cabin', sans-serif;
 }
 
-/*footer ul li {
-	max-width:100%;
-}*/
+p {
+	font-family: 'Cabin', sans-serif;
+}
 
-/*footer img {
+footer ul li {
 	max-width:100%;
-}*/
+}
 
-.work-images ul li {
+footer img {
+	max-width:100%;
+}
+
+.row div {
 	margin-top:5%;
 }
 
-/*.work-images ul li:hover {
-	
-}*/
-
-.work-images:nth-child(4) {
-	margin-top:5%;
+.buttons {
+	margin-bottom:3%;
+	margin-top:3%;
 }
 
 .decay ul li {
@@ -85,25 +92,30 @@ h2 {
 	margin-top:5%;
 }
 
+.about {
+	margin-bottom:4%;
+}
 
 
 @media (min-width:768px) {
 	.nav li {
-		color:#52676d;
+		color:#341910;
 		background-color:#FFEED8;
 		display:inline-block;
-		margin-top:15%;
-		margin-bottom:15%;
-		margin-left:750%;
-		text-align:right;
+		/*padding-top:3%;
+		padding-bottom:3%;*/
+		float:left;
+		margin-right:5%;
+		margin-left:3%;
 	}
 
 	.nav li:hover {
 		color:#37b9df;
 	}
 
-	footer {
-		vertical-align:middle;
+	.links li {
+		display:inline;
+		margin-right:30%;
 	}
 
 	footer img {
@@ -123,14 +135,19 @@ h2 {
 		margin-bottom:5%;
 	}
 
-	.work-images ul {
-		margin-top:-4%;
+	.row div {
+		margin-top:-2%;
 		margin-bottom:3%;
 	}
 
 }
 
 @media (min-width:992px) {
+	.links li {
+		display:inline;
+		margin-right:30%;
+	}
+
 	.lead {
 		
 		color:#341910;
@@ -140,7 +157,13 @@ h2 {
 		border:dashed 1px #341910;
 	}
 
-	.work-images li {
+	a .thumbnail {
+		width:360px;
+		height:261px;
+	}
+
+	.row div {
+		display:inline-block;
 		float:left;
 	}
 
@@ -154,7 +177,7 @@ h2 {
 	}
 
 	footer {
-		margin-left:15%;
+
 	}
 
 	span .me {
@@ -170,11 +193,26 @@ h2 {
 	}
 
 	.about {
-		width:85%;
+		width:100%;
 	}
 
 	.decay ul {
-		margin-left:20%;
+		margin-left:11%;
 	}
 
 }
+
+@media (min-width:469px) and (max-width:992px) {
+	.logo {
+		width:15%;
+	}
+	footer img {
+		width:10%;
+	}
+}
+
+/*@media (min-width:993px) and (min-width:1199px) {
+	.work-images h1 {
+
+	}
+}*/
