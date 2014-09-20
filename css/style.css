@@ -55,7 +55,7 @@ p {
 	font-family: 'Cabin', sans-serif;
 }
 
-footer ul li {
+footer ul {
 	max-width:100%;
 }
 
@@ -99,7 +99,7 @@ footer img {
 
 @media (min-width:768px) {
 	.nav li {
-		color:#341910;
+		
 		background-color:#FFEED8;
 		display:inline-block;
 		/*padding-top:3%;
@@ -116,6 +116,7 @@ footer img {
 	.links li {
 		display:inline;
 		margin-right:30%;
+		color:#341910;
 	}
 
 	footer img {
@@ -180,7 +181,7 @@ footer img {
 
 	}
 
-	span .me {
+	div .me {
 		margin-bottom:10%;
 	}
 
