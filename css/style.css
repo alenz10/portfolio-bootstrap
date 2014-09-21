@@ -119,12 +119,11 @@ footer img {
 		color:#341910;
 	}
 
-	footer img {
-		width:50%;
-		margin-right:30%;
+	footer li {
+		width:100%;
 	}
 
-	footer img:last-child {
+	footer li:last-child {
 		margin-right:0%;
 	}
 
@@ -177,10 +176,6 @@ footer img {
 		float:left;
 	}
 
-	footer {
-
-	}
-
 	div .me {
 		margin-bottom:10%;
 	}
@@ -209,6 +204,20 @@ footer img {
 	}
 	footer img {
 		width:10%;
+	}
+}
+
+@media (min-width:192px) and (max-width:468px) {
+	h2 {
+		font-size:1em;
+	}
+
+	footer ul {
+		max-width:100%;
+	}
+
+	footer img {
+		max-width:100%;
 	}
 }
 
