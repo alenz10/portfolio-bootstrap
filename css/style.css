@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-	font-size:1em;
+	font-size:1.3em;
 	font-family: 'Cabin', sans-serif;
 }
 
@@ -209,7 +209,7 @@ footer img {
 	}
 }
 
-@media (min-width:192px) and (max-width:468px) {
+@media (min-width:192px) and (max-width:467px) {
 	h2 {
 		font-size:1em;
 	}
